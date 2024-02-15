@@ -1,6 +1,6 @@
 import { useContext } from "react"
-import UserContext from "../../Context/UserContext"
-import UserContextProvider from "../../Context/UserContextProvider";
+import UserContext from "../Context/UserContext"
+import UserContextProvider from "../Context/UserContextProvider";
 
 
 function Profile() {
