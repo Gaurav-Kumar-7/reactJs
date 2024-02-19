@@ -1,0 +1,7 @@
+/* .after\:content-\[\'\'\]::after {
+    background: url('./../assets/1.jpg') no-repeat;
+    object-fit: cover;
+  } */
+  .peer:checked ~ .peer-checked\:after\:border-white::after { 
+    background-color: #1f2937 !important;
+  }
