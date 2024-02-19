@@ -8,8 +8,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
     return(
-        <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
+        <Box sx={{ flexGrow: 1 }} style={{paddingBottom: "40px"}}>
+        <AppBar position="fixed" >
           <Toolbar variant="dense">
             <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
               <MenuIcon />
