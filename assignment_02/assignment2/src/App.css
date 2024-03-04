@@ -1,0 +1,72 @@
+.active {
+  color: #b31717 !important;
+}
+.active svg path {
+  fill: #b31717 !important;
+}
+.MuiDrawer-root.MuiDrawer-docked .MuiPaper-root.MuiPaper-elevation {
+  scrollbar-width: thin !important;
+}
+.css-4jnixx-MuiStack-root>.MuiTextField-root {
+  min-width: 100% !important;
+}
+.task .MuiFormControl-root.MuiTextField-root .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl {
+  margin-top: 10px !important;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr.Complete {
+  background-color: #dddddd;
+}
+.filterIcon {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.MuiBox-root {
+  overflow-x: hidden !important;
+}
+.Complete td input {
+  background-color: #dddddd !important;
+  border: none;
+  outline: none;
+}
+td input {
+  border: none;
+  outline: none;
+}
