@@ -5,7 +5,6 @@ const FileUpload: React.FC = () => {
   const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
-    // Store the uploaded files in state
     setUploadedFiles(acceptedFiles);
     console.log(acceptedFiles)
   }, []);
