@@ -1,0 +1,30 @@
+.wrapper {
+  height: 100vh;
+}
+.left_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_wrapper {
+  background: url('./assets/login_logo.svg') no-repeat;
+  background-size: cover;
+}
+.loginBtn {
+  width: 350px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #030303;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #e5474e !important;
+} */
+@media(max-width: 768px) { 
+  .right_wrapper {
+    display: none;
+  }
+}

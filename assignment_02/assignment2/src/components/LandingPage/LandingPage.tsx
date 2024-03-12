@@ -32,6 +32,7 @@ function LandingPage() {
 
   const editTask = () => {
     console.log("Edit");
+    console.log(isTaskEditable)
     dispatch(updateTask(filteredData));
     dispatch(updateDisc(filteredData));
     dispatch(updateCategory(filteredData));
