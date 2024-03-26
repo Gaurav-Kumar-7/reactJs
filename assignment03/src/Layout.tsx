@@ -1,10 +1,11 @@
-import { Outlet } from "react-router-dom"
+import SideNav from "./shared/components/sideNav/SideNav"
 
 function Layout() {
     return(
-        <div>
-            <Outlet />
-        </div>
+        <>
+        <SideNav />
+        </>
     )
 }
-export default Layout
+
+export default Layout 
